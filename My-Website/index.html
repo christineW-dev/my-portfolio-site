@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Page</title>
+
+        <link
+        href="https://fonts.googleapis.com/css2
+        ?family=poppins&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet"
+        href="style.css">
+
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="grid-page">
+            
+        <header id="home" class="section-box">
+            <h1 class="hero-name"> Christine Wanja</h1>
+            <p class="hero-subtitle"> Welcome to my Website</p>
+        </header>
+
+        <main>
+
+        <h1>Hello World!</h1>
+        <p>This is my first web page.</p>
+
+        <h1>Text formatting examples</h1>
+        <p>This is <b>bold</b> text.</p>
+        <p>This is <strong>strong</strong> text.</p>
+        <p>This is <i>italic</i> text.</p>
+        <p>This is <em>emphasized</em> text.</p>
+        <p>This is <mark>highlighted</mark> text.</p>
+        <p>This is <u>underlined</u> text.</p>
+        <p>This is <small>small</small> text.</p>
+
+        <h2>Useful links</h2>
+        <p>Click this link to visit <a
+        href="https://www.bible.com"
+    target="_blank">bible.com</a> for daily Bible reading.</p>
+        <section>
+        <h2>MYfavourite subjects</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        </section>
+
+        <section>
+        <h2>My Morning Routine</h2>
+        <ol>
+            <li>Wake up</li>
+            <li>Pray</li>
+            <li>Reading the Bible</li>
+        </ol>
+        </section>
+
+
+        <h2>My favourite picture</h2>
+        <img src="images/pic1.jpg" alt="A beautifulstreet" width="200">
+        <img src="image/pic2.jpg" alt="A person in a hoodie" width="200">
+
+        </div>
+
+        <h2>My Daily Study Timetable</h2>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Morning (9am - 11am)</th>
+                <th>Afternoon (2pm -4pm)</th>
+                <th>Evening (7pm -8pm)</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>Review notes</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>CSS</td>
+                <td>HTML Practice</td>
+                <td>Prayer & Bible</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>JavaScript Intro</td>
+                <td>CSS Practice</td>
+                <td>Reading</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>JavaScript</td>
+                <td>Project Work</td>
+                <td>Review notes</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Code Review</td>
+                <td>Fun Coding</td>
+                <td>Worship</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Free Study</td>
+                <td>Assignment</td>
+                <td>Relax</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="3">Church, Rest & Reflection</td>
+            </tr>
+        </table>
+      <section id="contact"  >
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name"
+            name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email"
+            name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"
+            rows="4" cols="30" required></textarea><br><br>
+
+            <input type="submit" value="send">
+
+            <label for="subject">Choose a subject:</label>
+            <select id="subject" name="subject" required>
+                <option value="">--please choose an option</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+            </select>
+
+            <p>What is your level of experience?</p>
+            <input type="radio" id="beginner" name="level" value="beginner">
+            <label for="beginner">Beginner</label><br>
+
+            <input type="radio" id="intermediate" name="level" value="intermediate">
+            <label for="intermediate">Intermediate</label><br>
+
+            <input type="radio" id="advanced" name="level" value="advanced">
+            <label for="advanced">Advanced</label>
+            
+            <p>Which days do you study coding?</p>
+            <input type="checkbox" id="mon" name="studyday" value="monday">
+            <label for="mon">Monday</label><br>
+
+            <input type="checkbox" id="tue"
+            name="studyday" value="Tuesday">
+            <label for="tue">Tuesday</label><br>
+
+            <input type="chekbox" id="wed" name="studyday" value="wednesday">
+            <label for="wed">Wednesday</label>
+        </form>
+      </section>
+      
+      
+        <h2>Sample audio</h2>
+        <audio controls>
+            <source
+            src="https://www.soundhelix.com/examples
+            /mp3/soundHelix-song-1.mp3" type="audio/mpeg">
+            your browser does not support the audio tag.
+        </audio>
+
+        <h2>Sample video</h2>
+        <video width="480" height="270" controls>
+            <source
+            src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            your browser does not support the video tag.
+        </video>
+
+        <h1>Welcome to my Website</h1>
+        <p>Hello, I'm Christine Wanja. This website showcases what i've 
+            learned in HTML and CSS as part of my mimi-project. Feel free to<a
+            href="https://www.google.com"
+            target="_blank">Visit Google</a> for more information, or explore my page below.
+        </p>
+        <img src="images/profile.jpg"
+        alt="Christine Wanja's profile picture"
+        width="200">
+
+        <div class="container">
+            <div class="box">Left Box</div>
+            <div class="box">Right Box</div>
+        </div>
+
+        <div class="column-container">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+
+        <div class="button-container">
+            <button class="my-button">Click Me</button>
+            <button class="my-button">Home</button>
+            <button class="my-button">About</button>
+            <button class="my-button">Contact</button>
+            <button class="my-button red-button">Delete</button>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-item">One</div>
+            <div class="flex-item">Two</div>
+            <div class="flex-item">Three</div>
+        </div>
+
+        <div class="flex-container">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+        </div>
+
+        <section class="grid-layout">
+            <h2>My Grid Layout</h2>
+            <div class="grid-container">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+                <div class="grid-item">Item4</div>
+            </div>
+        </section>
+
+        <section class="grid-page">
+            <h2>Grid Layout Part 2</h2>
+            <div class="grid-three-columns">
+                <div class="grid-box">Item 1</div>
+                <div class="grid-box">Item 2</div>
+                <div class="grid-box">Item 3 </div>
+                <div class="grid-box">Item 4</div>
+                <div class="grid-box">Item 5</div>
+                <div class="grid-box">Item 6</div>
+            </div>
+        </section>
+
+        <h2>My Grid Layout</h2>
+
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+        </div>
+
+        <div class="grid-page">
+            <header>Header</header>
+            <nav>Sidebar</nav>
+            <main>Main content</main>
+            <footer>Footer</footer>
+        </div>
+    </main>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Christine Wanja. I am a passionate computer science student who 
+            loves coding and learning new things.</p>
+            
+            <h3>Interests</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Music & Worship</li>
+                <li>Reading the Bible</li>
+                <li>Helping others</li>
+            </ul>
+
+            <h3>Goals</h3>
+            <p>I want to become financially independent, grow spiritually,
+                and master coding to create amazing projects!</p>
+    </section>
+
+    <section id="projects">
+        <h2>My projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Bio Website</h3>
+                <p>A simple bio website using HTML and CSS.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio page</h3>
+                <p>My upcoming personal portfolio project.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Practice Gallery</h3>
+                <p>A future idea for showing images using grid layout.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>&copy; 2025 Christine Wanja. All rights reserved</footer>
+
+        </div>
+     </body>   
+</html>
